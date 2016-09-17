@@ -10,7 +10,7 @@ var articleOne={
 	date:'Sep 5,2016',
 	content:"<p>hhahhahah hahahhah ahhahhaha</p>"
 }
-var htmlTemplate=`<html><head><title>Article One</title>
+var htmlTemplate=`<html><head><title>${title}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link href="/ui/style.css" rel="stylesheet" />
 
@@ -23,11 +23,11 @@ var htmlTemplate=`<html><head><title>Article One</title>
 </div>
 <hr/>
 <div>
-18 sep 2016
+${date}
 </div>
 <div>
 <p>
-hhahhahah hahahhah ahhahhaha
+${content}
 </p>
 </div>
 </div>
