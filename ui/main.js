@@ -14,7 +14,7 @@ button.onclick=function()
             
         }
     };
-    request.open('GET', 'http://dm2097.imad.hasura-app.io/counter',true);
+    request.open('GET', 'http://localhost:8080/counter',true);
     request.send(null);
     
 };
