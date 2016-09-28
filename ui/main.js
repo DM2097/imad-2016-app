@@ -21,7 +21,7 @@ button.onclick=function()
 var nameInput= document.getElementById('name');
 var name=nameInput.value;
 var submit=document.getElementById('submit_btn');
-submit.onclick=function(){
+submit.onclick= function(){
      var request = new XMLHttpRequest();
     request.onreadystatechange=function(){
         if(request.readyState===XMLHttpRequest.DONE){
