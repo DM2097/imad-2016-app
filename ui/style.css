@@ -1,28 +1,137 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+body{
+	margin: 0px;
+	
+}
+.main{
+	height: 700px;
+	background-image: url("bh1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	}
+@media screen and (min-width:1000px){
+	#container{
+	height: 700px;
+	width: 1000px;
+	margin: 0 auto;
+}
+		
+	} 
+
+.header{
+	margin-top: 0px;
+	width: 1000px;
+	width: 100%;
+}
+nav{
+	float: right;
+	margin-top: 26px;
+}
+.navbar{
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 25px;
+	margin-left: 15px;
+    text-decoration: none;	
+}
+.navbar:hover{
+	text-decoration: underline;
+	color: yellow;
+} 
+span{
+width: 100%;
+}
+h1{
+	color: white;
+	font-size: 80px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	clear: both; 
+	padding-top: 210px;
+	padding-left: 450px;
+	
+}
+/* Header Section*/
+#head{
+	width: 100%;
+	height: 350px;
+	background-image: url("b2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}   
+.port{
+	padding-top: 180px;
+	font-family: 'Itim', cursive;
+}
+.portfolio{
+	width: 300px;
+	height: 250px;
+	box-shadow: 10px 10px grey;
+	 
+}
+.padding{
+	margin-left: 46px;
+	box-shadow: 10px 10px grey;
 }
 
-.center {
-    text-align: center;
+.one {
+	margin-top: 46px;
 }
 
-.text-big {
-    font-size: 300%;
+/*FOOTER Section*/ 
+footer{
+	width: 100%;
+	height: 450px;
+	background-color: #183951;
+	margin-top: 0px;
 }
-
-.bold {
-    font-weight: bold;
+#foot{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	}
+	h3{ 
+		 color: white;
+	}
+	div.social{
+		float: left;
+		margin-top: 20px;
+	}
+	a.social{
+		margin-right: 15px;
+	}
+	div.contact{
+		float: right;
+		margin-right: 200px;
+		margin-top: 20px;
+	}
+	label{
+		color: white;
+	}
+input.text{
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
 }
-
-.img-medium {
-    height: 200px;
+textarea.message{
+	height: 100px;
+	width:  250px;
+	border-radius: 3px;
+	border: none;
 }
-.container{
-max-width:800px;
-margin: 0 auto;
-color:red;
-font-family:sans-serif;
-padding-top:80px;}
+input.submit{
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	color: #183951;
+	border: none;
+	border-radius: 3px; 
+}
+input.submit:hover{
+	text-decoration: underline; 
+}
 
