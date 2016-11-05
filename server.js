@@ -8,20 +8,7 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var counter=0;
-app.get('/counter', function(req,res){
-    counter=counter+1;
-    res.send(counter.toString());
-});
-app.get('/article-one', function (req, res) {
-  res.send(createTemplate(articleOne));
-});
-app.get('/article-two', function (req, res) {
-  res.send(path.join('Article two requested here'));
-});
-app.get('/article-three', function (req, res) {
-  res.send(path.join('Article three requested here'));
-});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
