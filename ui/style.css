@@ -4,7 +4,7 @@ body{
 }
 .main{
 	height: 700px;
-	background-image: url("bh1.jpg");
+	background-image: url("ui/bh1.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -56,7 +56,7 @@ h1{
 #head{
 	width: 100%;
 	height: 350px;
-	background-image: url("b2.jpg");
+	background-image: url("ui/b2.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
