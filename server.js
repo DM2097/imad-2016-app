@@ -35,6 +35,33 @@ app.get('/ui/bh1.jpg', function (req, res) {
 app.get('/ui/b2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'b2.jpg'));
 });
+app.get('/ui/11.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '11.jpg'));
+});
+app.get('/ui/2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '2.jpg'));
+});
+app.get('/ui/3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '3.jpg'));
+});
+app.get('/ui/fb1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'fb1.png'));
+});
+app.get('/ui/form.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'form.php'));
+});
+app.get('/ui/git1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'git1.png'));
+});
+app.get('/ui/gp.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'gp.png'));
+});
+app.get('/ui/in1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'in1.png'));
+});
+app.get('/ui/lin1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'lin1.png'));
+});
 
 
 
