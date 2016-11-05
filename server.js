@@ -9,18 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/Portfolio.html', function (req, res) {
+app.get('/Portfolio.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Portfolio.html'));
 });
-app.get('/ui/game.html', function (req, res) {
+app.get('/game.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'game.html'));
 });
-app.get('/ui/blog.html', function (req, res) {
+app.get('/blog.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 
 
-app.get('/ui/style.css', function (req, res) {
+app.get('/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('ui/main.js', function (req, res) {
