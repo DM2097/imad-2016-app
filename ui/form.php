@@ -4,8 +4,8 @@ $email=$_POST['email'];
 $message=$_POST['message'];
 $to='dhanesh2013.500@gmail.com';
 $subject='Website Contact Form';
-$msg= $message;
-$headers = "From:" . $email . "\r\n";
-mail($to,$subject,$msg,$headers);
+$msg= $name . " " .$email . " " . $message;
+/*$headers = "From:" . $email . "\r\n";*/
+mail($to,$subject,$msg);
 
 ?>
