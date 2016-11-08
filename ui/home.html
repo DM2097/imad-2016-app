@@ -8,13 +8,24 @@
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Itim|Lobster" rel="stylesheet">
     </head>
 <body>
-    <h3>Login to unlock awesome features</h3>
-    <div>
-        <input type = "text" id = "username" placeholder="username"/>
-         <input type = "password" id = "password"/>
-          <input type = "submit" id = "submit_btn" />
-        
-    </div>
+    <div class="login">
+<h3>Login to continue</h3>
+<form class="login" name="form" method="post">
+<label for="name">User Name</label><br>
+<input class="text" name="name" type="text"/>
+<br><br>
+
+<!--<label for="email">Email</label><br>
+<input class="text" name="email" type="text"/>
+<br><br>-->
+
+<label for="password">Password</label><br>
+<textarea class="password" name="password"></textarea>
+<br><br>
+
+<input class="submit" name="submit" type="submit" value="Submit"/>
+</form>
+</div>
     <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
