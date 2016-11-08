@@ -142,12 +142,5 @@ input.submit:hover{
 	background-size: cover;
 	
 	}
-@media screen and (min-width:1000px){
-	#container{
-	height: 700px;
-	width: 1000px;
-	margin: 0 auto;
-}
-		
-	} 
+
 
