@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+}
+.main{
+	
+	height: 700px;
+	background-image: url(b4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+	height: 700px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+span{
+	width: 100%;
+}
