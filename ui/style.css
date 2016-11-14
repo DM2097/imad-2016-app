@@ -4,7 +4,7 @@ body{
 }
 .main{
 	height: 700px;
-	background-image: url("ui/bh1.jpg");
+	background-image: url("bh1.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -21,7 +21,7 @@ body{
 
 .header{
 	margin-top: 0px;
-	width: 1000px;
+
 	width: 100%;
 }
 nav{
@@ -56,7 +56,7 @@ h1{
 #head{
 	width: 100%;
 	height: 350px;
-	background-image: url("ui/b2.jpg");
+	background-image: url("b2.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -70,15 +70,121 @@ h1{
 	width: 300px;
 	height: 250px;
 	box-shadow: 10px 10px grey;
+	margin-top: 46px;
+	
 	 
 }
 .padding{
+	width: 300px;
+	height: 250px;
+	box-shadow: 10px 10px grey;
 	margin-left: 46px;
 	box-shadow: 10px 10px grey;
+	margin-top: 46px;
+}
+.padding2{
+	width: 300px;
+	height: 250px;
+	box-shadow: 10px 10px grey;
+	margin-left: 46px;
+	box-shadow: 10px 10px grey;
+	margin-top: 46px;
 }
 
-.one {
-	margin-top: 46px;
+
+
+
+span.text-content {
+   background: rgba(0,0,0,0.5);
+  
+  color: yellow;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  margin-left: 175px;
+  margin-top: 395px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  opacity: 0;
+}
+.one:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content1 {
+ background: rgba(0,0,0,0.5);
+  
+  color: yellow;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  margin-left: 525px;
+  margin-top: 395px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  
+}
+.one:hover span.text-content1 {
+  opacity: 1;
+}
+
+
+span.text-content1 span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content2 {
+  background: rgba(0,0,0,0.5);
+  
+  color: yellow;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  margin-left: 870px;
+  margin-top: 395px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+opacity: 0;
+  
+}
+.one:hover span.text-content2 {
+  opacity: 1;
+}
+
+
+span.text-content2 span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.resume{
+	margin-left: 350px;
+	margin-top: 100px;
+
 }
 
 /*FOOTER Section*/ 
@@ -134,16 +240,6 @@ input.submit{
 input.submit:hover{
 	text-decoration: underline; 
 }
-.login{
-	height: 700px;
-	background-image: url("ui/bs.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0;
-	
-	}
-	
-	
+
 
 
